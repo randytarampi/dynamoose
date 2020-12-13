@@ -1,5 +1,5 @@
 {
-  "name": "dynamoose",
+  "name": "@randy.tarampi/dynamoose",
   "version": "2.5.0",
   "description": "Dynamoose is a modeling tool for Amazon's DynamoDB (inspired by Mongoose)",
   "main": "dist/index.js",
@@ -37,9 +37,12 @@
     "site:build": "cd docs && npm run build",
     "site:swizzle": "cd docs && npm run swizzle"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dynamoose/dynamoose.git"
+    "url": "git+https://github.com/randytarampi/dynamoose.git"
   },
   "author": {
     "name": "Charlie Fish",
@@ -49,10 +52,15 @@
   "contributors": [
     {
       "name": "Brandon Goode"
+    },
+    {
+      "name": "Randy Tarampi",
+      "email": "rt@randytarampi.ca",
+      "url": "https://randytarampi.ca"
     }
   ],
   "bugs": {
-    "url": "https://github.com/dynamoose/dynamoose/issues"
+    "url": "https://github.com/randytarampi/dynamoose/issues"
   },
   "dependencies": {
     "aws-sdk": "^2.792.0",
